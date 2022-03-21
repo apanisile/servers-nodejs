@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const router = express.Router();
 
-const path = __dirname + "/views";
+const path = __dirname + '/views/';
 const port = 8080;
 
 router.use(function (req, res, next) {
@@ -14,7 +14,7 @@ router.get("/", function (req, res) {
   res.sendFile(path + "index.html");
 });
 
-router.get("/sharks", function (req, res) {
+router.get('/sharks', function (req, res) {
   res.sendFile(path + "sharks.html");
 });
 
