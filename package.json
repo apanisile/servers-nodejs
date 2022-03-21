@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-image-project",
+  "version": "1.0.0",
+  "description": "Nodejs Image project",
+  "author": "Lala <apanisileifeoluwa@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
